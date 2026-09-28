@@ -23,7 +23,7 @@ from the Kali repositories .
 
 # MinGW versions for Powerstager
 
-The dependency checker accepts MinGW GCC versions 4.9.1, 6.3.0, and 16.x. If you have GCC 16.x installed, you do not need to remove or downgrade MinGW just to pass the checker. The Debian Jessie procedure below is only for installing the legacy 4.9.1 toolchain.
+The dependency checker accepts MinGW GCC versions 4.9.1, 6.3.0, and 16.x, including the `16-win32` version label. If you have GCC 16.x installed, you do not need to remove or downgrade MinGW just to pass the checker. The Debian Jessie procedure below is only for installing the legacy 4.9.1 toolchain.
 
 # Install legacy mingw 4.9.1 from Debian Repository
 
