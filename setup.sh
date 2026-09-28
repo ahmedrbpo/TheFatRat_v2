@@ -79,6 +79,9 @@ echo "[✔]"
 6.3.0)
 echo "[✔]"
 ;;
+16.*)
+echo "[✔]"
+;;
 *)
 echo "Error"
 echo ""

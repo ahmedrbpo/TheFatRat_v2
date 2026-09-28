@@ -21,7 +21,11 @@ from the Kali repositories .
 - If you recently installed fatrat then you probably will have an issue with powerstager with error I/O when it tries to write the backdoor output file , to solve that issue you must add debian jessie repositories to your file /etc/apt/sources.list and deisable any new repository there , then uninstall and remove your current mingw instalation and run setup.sh from fatrat again .
 * - look here https://github.com/Screetsec/TheFatRat/issues/391
 
-# Install mingw 4.9.1 version from Debian Repository required for Powerstager
+# MinGW versions for Powerstager
+
+The dependency checker accepts MinGW GCC versions 4.9.1, 6.3.0, and 16.x. If you have GCC 16.x installed, you do not need to remove or downgrade MinGW just to pass the checker. The Debian Jessie procedure below is only for installing the legacy 4.9.1 toolchain.
+
+# Install legacy mingw 4.9.1 from Debian Repository
 
 1st - add this line to /etc/apt/sources.list
 

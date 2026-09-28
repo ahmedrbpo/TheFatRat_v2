@@ -197,8 +197,11 @@ echo "[✔]"
 6.3.0)
 echo "[✔]"
 ;;
+16.*)
+echo "[✔]"
+;;
 *)
-echo -e "$green""[${red}x$green]$orange Incorrect 64Bit Version for Fudwin in Fatrat"
+echo -e "$green""[${red}x$green]$orange Unsupported MinGW Version for Fudwin in Fatrat"
 echo ""
 echo -e "$orange""------------Solution -------------"
 echo -e "$cyan""Step 1 - Remove your current ming installation"
@@ -233,8 +236,11 @@ echo "[✔]"
 6.3.0)
 echo "[✔]"
 ;;
+16.*)
+echo "[✔]"
+;;
 *)
-echo -e "$green""[${red}x$green]$orange Incorrect 64Bit Version for Fudwin in Fatrat"
+echo -e "$green""[${red}x$green]$orange Unsupported MinGW Version for Fudwin in Fatrat"
 echo ""
 echo -e "$orange""------------Solution -------------"
 echo -e "$cyan""Step 1 - Remove your current ming installation"
